@@ -15,3 +15,6 @@ package-install:
 
 package-install-win:
 		python -m pip install --user dist\hexlet_code-0.2.0-py3-none-any.whl
+
+pre-commit:
+		pre-commit run --all-files
