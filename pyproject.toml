@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.3.0"
+version = "0.4.0"
 description = "a small pack of fun games for your terminal"
 authors = ["AlexMomot-717 <momot-717@yandex.ru>"]
 readme = "README.md"
