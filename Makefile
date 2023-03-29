@@ -14,10 +14,13 @@ package-install:
 		python3 -m pip install --user dist/*.whl
 
 package-install-win:
-		python -m pip install --user dist\hexlet_code-0.4.0-py3-none-any.whl
+		python -m pip install --user dist\hexlet_code-0.5.0-py3-none-any.whl
 
 pre-commit:
 		pre-commit run --all-files
 
 lint:
 		poetry run flake8 brain_games
+
+brain-even:
+		poetry run brain-even
