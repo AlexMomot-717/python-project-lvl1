@@ -4,3 +4,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/b902fd4658d626f88eeb/maintainability)](https://codeclimate.com/github/AlexMomot-717/python-project-lvl1/maintainability)
 # Brain Even Game:
 [![asciicast](https://asciinema.org/a/572371.svg)](https://asciinema.org/a/572371)
+# Brain Calc Game:
+[![asciicast](https://asciinema.org/a/572910.svg)](https://asciinema.org/a/572910)

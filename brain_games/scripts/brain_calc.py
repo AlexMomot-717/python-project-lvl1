@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 from brain_games.engine import run_game
-from brain_games.games.even import even
+from brain_games.games.calc import calc
 
 
 def main() -> None:
     """
-    Executes brain-even game
+    Executes brain-calc game
     """
-    run_game(even)
+    run_game(calc)
 
 
 if __name__ == "__main__":
