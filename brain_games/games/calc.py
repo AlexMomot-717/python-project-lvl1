@@ -1,7 +1,10 @@
-from random import choice, randint
+from random import choice
 from typing import Dict
 
+from brain_games.games.utils import generate_game_round_data, get_random_number
+
 OPERATORS = ["+", "-", "*"]
+RULES = "What is the result of the expression?"
 
 
 def calc() -> Dict[str, str]:
@@ -11,8 +14,8 @@ def calc() -> Dict[str, str]:
     :return: brain-calc game round data
     :rtype: Dict[str, str]
     """
-    num1 = randint(0, 20)
-    num2 = randint(0, 20)
+    num1 = get_random_number(0, 20)
+    num2 = get_random_number(0, 20)
     operator_symbol = choice(OPERATORS)
     question = f"{num1} {operator_symbol} {num2}"
     if operator_symbol == "+":
@@ -21,9 +24,5 @@ def calc() -> Dict[str, str]:
         correct_answer = num1 - num2
     else:
         correct_answer = num1 * num2
-    task_params = {
-        "rules": "What is the result of the expression?",
-        "question": question,
-        "correct_answer": str(correct_answer),
-    }
-    return task_params
+
+    return generate_game_round_data(RULES, question, str(correct_answer))
