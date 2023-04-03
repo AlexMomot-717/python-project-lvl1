@@ -23,7 +23,7 @@ def run_game(func: Callable[[], Dict[str, str]]) -> None:
         task_params = func()
         tell_rules(task_params["rules"])
         ask_question(task_params["question"])
-        correct_answer = str(task_params["correct_answer"])
+        correct_answer = task_params["correct_answer"]
         answer = get_answer()
         if correct_answer == answer:
             confirm_answer()

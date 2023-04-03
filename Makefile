@@ -14,7 +14,7 @@ package-install:
 		python3 -m pip install --user dist/*.whl
 
 package-install-win:
-		python -m pip install --user dist\hexlet_code-0.6.0-py3-none-any.whl
+		python -m pip install --user dist\hexlet_code-0.7.0-py3-none-any.whl
 
 pre-commit:
 		pre-commit run --all-files
@@ -27,3 +27,6 @@ brain-even:
 
 brain-calc:
 		poetry run brain-calc
+
+brain-gcd:
+		poetry run brain-gcd
