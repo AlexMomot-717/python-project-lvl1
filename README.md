@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/572910.svg)](https://asciinema.org/a/572910)
 # Brain GCD Game:
 [![asciicast](https://asciinema.org/a/574153.svg)](https://asciinema.org/a/574153)
+# Brain Progression Game:
+[![asciicast](https://asciinema.org/a/575055.svg)](https://asciinema.org/a/575055)
