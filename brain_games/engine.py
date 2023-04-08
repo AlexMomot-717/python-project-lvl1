@@ -10,6 +10,8 @@ from brain_games.cli import (
     welcome_user,
 )
 
+GAME_ROUNDS_NUMBER = 3
+
 
 def run_game(func: Callable[[], Dict[str, str]]) -> None:
     """
@@ -19,7 +21,7 @@ def run_game(func: Callable[[], Dict[str, str]]) -> None:
     :type func: Callable[[], Dict[str, str]]
     """
     user_name = welcome_user()
-    for __ in range(3):
+    for __ in range(GAME_ROUNDS_NUMBER):
         task_params = func()
         tell_rules(task_params["rules"])
         ask_question(task_params["question"])

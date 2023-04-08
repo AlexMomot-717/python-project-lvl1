@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.9.0"
+version = "1.0.0"
 description = "a small pack of fun games for your terminal"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 authors = ["AlexMomot-717 <momot-717@yandex.ru>"]
+repository = "https://github.com/AlexMomot-717/python-project-lvl1"
 readme = "README.md"
 packages = [
     {include = "brain_games"},
